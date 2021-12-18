@@ -1,0 +1,51 @@
+.account-cont {
+  background-color: #ffffff;
+  width: 75%;
+  margin: auto;
+  font-style: 'HK Grotesk';
+}
+.membership-cont {
+  display: flex;
+  flex-direction: row;
+}
+.details {
+  color: #181818;
+  margin-left: 30px;
+  font-size: 25px;
+}
+.sub-head {
+  color: #94a3b8;
+  font-size: 25px;
+  font-weight: normal;
+}
+.plan-cont {
+  display: flex;
+  flex-direction: row;
+}
+.premium-cont {
+  display: flex;
+  flex-direction: row;
+}
+.ultra-button {
+  width: 75px;
+  height: 23px;
+  background-color: #ffffff;
+  color: #181818;
+  border: 1px solid #181818;
+  margin: 30px;
+}
+hr {
+  background-color: #cbd5e1;
+  height: 1px;
+}
+.button-cont {
+  text-align: center;
+  margin: 50px;
+}
+.log-out {
+  background-color: #e50914;
+  color: #ffffff;
+  padding: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+}

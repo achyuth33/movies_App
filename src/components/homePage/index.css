@@ -1,0 +1,14 @@
+body {
+  margin: 0px;
+}
+.background {
+  background-color: #181818;
+  height: 100%;
+  width: 100vw;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .background {
+    background: 100vw;
+  }
+}

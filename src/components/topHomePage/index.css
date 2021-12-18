@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.container-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-style: 'HK Grotesk';
+  font-weight: 400;
+  height: 90vh;
+  width: 100%;
+}
+.content-cont {
+  width: 30%;
+  margin: 60px;
+}
+.button-container {
+  background-color: #ffffff;
+  color: #181818;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .content-cont {
+    width: 50%;
+    margin: 0px;
+  }
+  .container-top {
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

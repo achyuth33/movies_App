@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181818;
+  height: 60px;
+  width: 100%;
+}
+.container-pages {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  width: 10vw;
+}
+.pages {
+  text-decoration: none;
+  color: #ffffff;
+}
+.pages-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.pages-cont {
+  padding-right: 10px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.sign-button-cont {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  margin: 60px;
+}
+.images-movies {
+  margin: 20px;
+  height: 27px;
+}
+.button-img {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: 0px;
+}
+.image-butn {
+  height: 40px;
+  width: 40px;
+}
+.input-text {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.search-butn {
+  margin-top: 10px;
+  color: #ffffff;
+}

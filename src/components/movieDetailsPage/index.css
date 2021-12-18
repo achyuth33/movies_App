@@ -1,0 +1,30 @@
+.bg {
+  background-color: #181818;
+  height: 100%;
+}
+.heading {
+  color: #64748b;
+  font-size: 25px;
+}
+.data {
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+.cont {
+  display: flex;
+}
+.similar-cont {
+  width: 100%;
+}
+p {
+  color: white;
+  font-weight: 'HK Grotesk';
+}
+li {
+  color: white;
+  font-weight: 'HK Grotesk';
+}
